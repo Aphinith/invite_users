@@ -1,0 +1,14 @@
+{
+  "name": "intercomcodingchallenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for Intercom",
+  "main": "users.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Aralya Phinith",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
