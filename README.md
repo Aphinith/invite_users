@@ -13,11 +13,11 @@
 1. Get data from the file into a format that we can use (JSON data would need to be parsed)
 2. Once parsed, we can then access the data to determine if any particular user meets the criteria to be invited using the formula provided.
 3. Since we also want to render the users in a specfic order, and in our case in ascending order by user id, we will also need to store the user ids in an array (so we can sort) and the user objects in an object with the key as the user id and the value would be the user object itself. This will allow us to do an instant lookup of any users with just the user id.
-4. Then we can simply sort the array of user ids, iterate through the array, and upon each iteration, get the user object and render the user id and name onto the DOM using jQuery (my goal was to also have a linear time complexity as its worst case scenario).
+4. Then we can simply sort the array of user ids, iterate through the array, and upon each iteration, get the user object and render the user id and name onto the DOM using jQuery (my goal was to also have a linear time complexity as the worst case scenario).
 
 ## Testing
 
-From within the root directory:
+From within the root directory, enter the following command in the terminal:
 
 ```sh
 npm install
